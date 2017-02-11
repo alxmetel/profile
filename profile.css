@@ -1,0 +1,113 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo {
+	float: left;
+	width: 150px;
+	height: 300px;
+	margin: 0 20px;
+}
+
+img {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	padding: 5px 0;
+	font-size: .8em;
+}
+
+li {
+	list-style-type: none;
+	height: 30px;
+	padding: 10px;
+}
+
+input {
+	height: 20px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	padding: 2px 5px;
+	margin-right: 5px;
+}
+
+.plusBtn {
+	position: relative;
+	left: 70px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	height: 30px;
+	width: 30px;
+}
+
+.plusBtnDescription {
+	position: relative;
+	left: 80px;
+	font-size: .8em;
+}
+
+#saveBtn {
+	position: absolute;
+	margin-top: 30px;
+	width: 80px;
+	height: 30px;
+	left: 210px;
+	border: 1px solid grey;
+	border-radius: 6px;
+}
+
+.value {
+	font-size: .8em;
+	color: grey;
+	padding: 6px;
+}
+
+#messageWindow {
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 6px;
+	padding-bottom: 20px;
+	width: 300px;
+	box-shadow: 1px 6px 8px grey;
+	top: 150px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.heading {
+	background: #CFCDFF;
+	color: grey;
+	border-bottom: none;
+	padding: 5px;
+	text-align: left;
+	font-size: .8em;
+}
+
+.message {
+	padding-top: 15px;
+	font-size: .8em;
+}
+
+.errMsg {
+	font-size: .7em;
+	color: red;
+}
+
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+<body>
+
+	<div class="photo">
+		<img src="http://www.hyperspin-fe.com/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" alt="photo">
+	</div>
+
+	<div>
+		<ul>
+			<li class="firstNameModule">
+				<label class="field" for="firstNameInput">First Name:</label>
+				<input type="text" id="firstNameInput" class="input show" placeholder="John">
+				<div id="firstNameValue" class="value hide"></div>
+			</li>
+
+			<li class="lastfirstNameModule">
+				<label class="field" for="lastNameInput">Last Name:</label>
+				<input type="text" id="lastNameInput" class="input show" placeholder="Smith">
+				<div id="lastNameValue" class="value hide"></div>
+			</li>
+
+			<li class="phoneModule">
+				<label class="field hide" for="phoneInput">Phone:</label>
+				<button id="phonePlusBtn" class="plusBtn show">+</button>
+				<span class="plusBtnDescription show">add Phone</span>
+				<input type="text" id="phoneInput" class="input hide" placeholder="(222) 555 5555">
+				<span id="phoneValidationMsg" class="errMsg hide">Phone number should be of such format: <b>(222) 555 5555</b></span>
+				<div id="phoneValue" class="value hide"></div>
+			</li>
+
+			<li class="emailModule">
+				<label class="field hide" for="emailInput">Email:</label>
+				<button id="emailPlusBtn" class="plusBtn show">+</button>
+				<span class="plusBtnDescription show">add E-mail</span>
+				<input type="text" id="emailInput" class="hide" placeholder="jsmith@gmail.com">
+				<span id="emailValidationMsg" class="errMsg hide">E-mail should be of such format: <b>jsmith@gmail.com</b></span>
+				<div id="emailValue" class="value hide"></div>
+			</li>
+		</ul>
+		
+		<button id="saveBtn">Save</button>
+
+
+	</div>
+
+	<div id="messageWindow" class="hide">
+		<div class="heading">Message</div>
+		<section class="message">
+			<span>Thank You</span>
+		</section>
+		</div>
+	</div>
+
+	<script src="profile.js"></script>
+</body>
+</html>
